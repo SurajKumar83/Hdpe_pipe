@@ -25,26 +25,33 @@
       </nav>
     </div>
   </header>
-  <!-- Breadcrumb Section -->
-  <section class="breadcrumb">
+  <!-- Product Details Section -->
+  <section class="product-details">
     <div class="breadcrumb-container">
       <p>Products</p>
       <img src="images/rightArrow.svg" alt="Right Arrow">
       <p>Two For One Twister</p>
     </div>
-  </section>
-  <!-- Product Details Section -->
-  <section class="product-details">
     <div class="product-details-container">
       <div class="product-image">
-        <div class="main-image-preview" id="mainImageContainer">
-          <img src="images/productImage.jpg" alt="Product" id="mainImage">
+        <div class="image-zoom-wrapper">
+          <div class="main-image-preview" id="mainImageContainer">
+            <div class="main-image-preview-back">
+              <img src="images/back.svg" alt="Back">
+            </div>
+            <img src="images/productImage.jpg" alt="Product" id="mainImage">
+            <div class="zoom-lens" id="zoomLens"></div>
+            <div class="main-image-preview-next">
+              <img src="images/next.svg" alt="Next">
+            </div>
+          </div>
+          <div class="zoom-preview" id="zoomPreview"></div>
         </div>
         <div class="carousel-thumbnails">
-          <img src="images/productImage.jpg" class="thumbnail active" alt="Thumbnail 1">
-          <img src="images/productImage.jpg" class="thumbnail" alt="Thumbnail 2">
-          <img src="images/productImage.jpg" class="thumbnail" alt="Thumbnail 3">
-          <img src="images/productImage.jpg" class="thumbnail" alt="Thumbnail 4">
+          <img src="images/productImage.jpg" class="thumbnail active">
+          <img src="images/productImage.jpg" class="thumbnail">
+          <img src="images/productImage.jpg" class="thumbnail">
+          <img src="images/productImage.jpg" class="thumbnail">
         </div>
       </div>
       <div class="product-info">
@@ -82,22 +89,530 @@
         </div>
         <div class="product-actions">
           <button class="primary-btn">Get Custom Quote</button>
-          <button class="secondary-btn">View Technical Specs <img src="images/rightArrow.svg" alt="Right Arrow"></button>
+          <button class="secondary-btn">View Technical Specs <img src="images/rightArrow.svg"
+              alt="Right Arrow"></button>
+        </div>
+      </div>
+    </div>
+    <div class="companies-trusted-by-container">
+      <p>Trusted by Hundreds of Companies Globally</p>
+      <div class="companies-trusted-by-logos">
+        <img id="company1" src="images/company.svg" alt="Company 1">
+        <img id="company2" src="images/company.svg" alt="Company 2">
+        <img id="company3" src="images/company.svg" alt="Company 3">
+        <img id="company4" src="images/company.svg" alt="Company 4">
+        <img id="company5" src="images/company.svg" alt="Company 5">
+        <img id="company6" src="images/company.svg" alt="Company 6">
+      </div>
+    </div>
+  </section>
+  <!-- Technical Specifications -->
+  <section class="technical-specifications">
+    <div class="technical-specifications-container">
+      <div class="technical-specifications-content">
+        <h2>Technical Specifications at a Glance</h2>
+        <p>Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
+        <div class="technical-specifications-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Specification</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pipe Diameter Range</td>
+                <td>20mm to 1600mm (3/4” to 63”)</td>
+              </tr>
+              <tr>
+                <td>Pressure Ratings</td>
+                <td>PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16</td>
+              </tr>
+              <tr>
+                <td>Standard Dimension Ratio</td>
+                <td>SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11</td>
+              </tr>
+              <tr>
+                <td>Operating Temperature</td>
+                <td>-40C to +80C (-40F to +176F)</td>
+              </tr>
+              <tr>
+                <td>Service Life</td>
+                <td>50+ Years (at 20 degrees C, PN 10)</td>
+              </tr>
+              <tr>
+                <td>Material Density</td>
+                <td>0.95 - 0.96 g/cm³</td>
+              </tr>
+              <tr>
+                <td>Certification Standards</td>
+                <td>IS 5984, ISO 4427, ASTM D3035</td>
+              </tr>
+              <tr>
+                <td>Joint Type</td>
+                <td>Butt Fusion, Electrofusion, Mechanical</td>
+              </tr>
+              <tr>
+                <td>Coil Lengths</td>
+                <td>Up to 500mm (for smaller diameters)</td>
+              </tr>
+              <tr>
+                <td>Country of Origin</td>
+                <td>🇮🇳 India</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="technical-specifications-actions">
+          <button class="secondary-btn"><img src="images/download.svg" alt="Download">Download Full Technical
+            Datasheet</button>
         </div>
       </div>
     </div>
   </section>
-  <!-- Companies Trusted By -->
-  <!-- Technical Specifications -->
   <!-- What You Get -->
+  <section class="what-you-get">
+    <div class="what-you-get-container">
+      <div class="what-you-get-content">
+        <h2>What You Get</h2>
+        <p>Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
+        <div class="what-you-get-cards">
+          <div class="what-you-get-card">
+            <img src="images/bag.svg" alt="What You Get 1">
+            <h4>Superior Chemical Resistance</h4>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode,
+              rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+          </div>
+          <div class="what-you-get-card">
+            <img src="images/thermo.svg" alt="What You Get 2">
+            <h4>Exceptional Flexibility & Durability</h4>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode,
+              rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+          </div>
+          <div class="what-you-get-card">
+            <img src="images/3dbox.svg" alt="What You Get 3">
+            <h4>Leak-Proof Fusion Welding</h4>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode,
+              rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+          </div>
+          <div class="what-you-get-card">
+            <img src="images/setting.svg" alt="What You Get 4">
+            <h4>Cost-Effective Long-Term Solution</h4>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode,
+              rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+          </div>
+          <div class="what-you-get-card">
+            <img src="images/setting.svg" alt="What You Get 5">
+            <h4>Environmentally Sustainable</h4>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode,
+              rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+          </div>
+          <div class="what-you-get-card">
+            <img src="images/setting.svg" alt="What You Get 6">
+            <h4>Certified Quality Assurance</h4>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode,
+              rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+          </div>
+        </div>
+        <div class="what-you-get-actions">
+          <button class="primary-btn">Request a Quote</button>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- FAQ Section -->
+  <section>
+    <div class="faq-container">
+      <div class="faq-content">
+        <h2><span>Frequently</span> Asked Questions</h2>
+        <div class="faq-cards">
+          <div class="faq-card">
+            <div>
+              <h4>Superior Chemical Resistance</h4>
+              <img src="images/upArrow.svg" alt="Down">
+            </div>
+            <p>It is designed to cut various types of sheet metal with precision, allowing for intricate designs and
+              shapes that are essential in manufacturing processes.</p>
+          </div>
+          <div class="faq-card">
+            <div>
+              <h4>Exceptional Flexibility & Durability</h4>
+              <img src="images/upArrow.svg" alt="Down">
+            </div>
+            <p>It is designed to cut various types of sheet metal with precision, allowing for intricate designs and
+              shapes that are essential in manufacturing processes.</p>
+          </div>
+          <div class="faq-card">
+            <div>
+              <h4>Leak-Proof Fusion Welding</h4>
+              <img src="images/upArrow.svg" alt="Down">
+            </div>
+            <p>It is designed to cut various types of sheet metal with precision, allowing for intricate designs and
+              shapes that are essential in manufacturing processes.</p>
+          </div>
+          <div class="faq-card">
+            <div>
+              <h4>Cost-Effective Long-Term Solution</h4>
+              <img src="images/upArrow.svg" alt="Down">
+            </div>
+            <p>It is designed to cut various types of sheet metal with precision, allowing for intricate designs and
+              shapes that are essential in manufacturing processes.</p>
+          </div>
+          <div class="faq-card">
+            <div>
+              <h4>Environmentally Sustainable</h4>
+              <img src="images/upArrow.svg" alt="Down">
+            </div>
+            <p>It is designed to cut various types of sheet metal with precision, allowing for intricate designs and
+              shapes that are essential in manufacturing processes.</p>
+          </div>
+        </div>
+        <div class="faq-actions">
+          <div class="faq-actions-content">
+            <h4>Want us to email the entire catalogue?</h4>
+            <p>Enter your email and an expert will share the catalogue with you.</p>
+          </div>
+          <div class="faq-actions-input">
+            <input type="email" placeholder="Email Address">
+            <button class="primary-btn">Request Catalogue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Versatile Applications -->
+  <section class="versatile-applications">
+    <div class="versatile-applications-container">
+      <div class="versatile-applications-content">
+        <h2>Versatile Applications Across Industries</h2>
+        <p>From technical textiles to packaging materials, our precision-engineered machinery delivers superior
+          performance across diverse applications.</p>
+        <div class="versatile-applications-cards">
+          <div class="versatile-applications-card">
+            <h4>Water Distribution</h4>
+            <p>HDPE pipes are used in water distribution systems to transport clean water from treatment plants to
+              homes and businesses.</p>
+          </div>
+          <div class="versatile-applications-card">
+            <h4>Wastewater Treatment</h4>
+            <p>HDPE pipes are used in wastewater treatment systems to transport wastewater from homes and businesses to
+              treatment plants.</p>
+          </div>
+          <div class="versatile-applications-card">
+            <h4>Irrigation</h4>
+            <p>HDPE pipes are used in irrigation systems to transport water from treatment plants to homes and
+              businesses.</p>
+          </div>
+          <div class="versatile-applications-card">
+            <h4>Irrigation</h4>
+            <p>HDPE pipes are used in irrigation systems to transport water from treatment plants to homes and
+              businesses.</p>
+          </div>
+          <div class="versatile-applications-card">
+            <h4>Irrigation</h4>
+            <p>HDPE pipes are used in irrigation systems to transport water from treatment plants to homes and
+              businesses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Manufacturing Process -->
+  <section class="manufacturing-process">
+    <div class="manufacturing-process-content">
+      <h2>Advanced HDPE Pipe Manufacturing Process</h2>
+      <p>Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties, and
+        dimensional accuracy in every pipe we manufacture.</p>
+      <div class="manufacturing-process-steps">
+        <div class="manufacturing-process-step large-screen">
+          <div class="step active">Raw Material</div>
+          <div class="step">Extrusion</div>
+          <div class="step">Cooling</div>
+          <div class="step">Sizing</div>
+          <div class="step">Quality Control</div>
+          <div class="step">Marking</div>
+          <div class="step">Cutting</div>
+          <div class="step">Packaging</div>
+        </div>
+        <div class="manufacturing-process-step medium-screen">
+          <div class="step active">Step 1/8: Raw Material</div>
+        </div>
+        <div class="manufacturing-process-steps-content">
+          <div class="manufacturing-process-step-content">
+            <h4>High-Grade Raw Material Selection</h4>
+            <p>Vacuum sizing tanks ensure precise outer diameter while internal pressure maintains perfect roundness
+              and wall thickness uniformity.</p>
+            <p class="blue-check"><img src="images/blueCheck.svg" alt="Blue Check">PE100 grade material</p>
+            <p class="blue-check"><img src="images/blueCheck.svg" alt="Blue Check">Optimal molecular weight distribution
+            </p>
+          </div>
+          <div class="manufacturing-process-step-image-carousel">
+            <div class="manufacturing-process-step-image-carousel-image">
+              <div><img class="manufacturing-process-step-image-carousel-back" src="images/back.svg" alt="Back"></div>
+              <img src="images/productImage.jpg" alt="Manufacturing Process">
+              <div><img class="manufacturing-process-step-image-carousel-next" src="images/next.svg" alt="Next"></div>
+            </div>
+            <div class="manufacturing-process-step-image-carousel-dots">
+              <div class="dot active"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+        <div class="manufacturing-process-step medium-screen next-previous">
+          <div class="step"><img src="images/back.svg">Previous</div>
+          <div class="step">Next<img src="images/next.svg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Proven Results -->
+  <section class="proven-results">
+    <div class="proven-results-container">
+      <div class="proven-results-content">
+        <h2>Proven Results Across Industries</h2>
+        <p>Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties, and
+          dimensional accuracy in every pipe we manufacture.</p>
+        <div class="proven-results-cards">
+          <div class="proven-results-card">
+            <img src="images/quoote.svg" alt="Quoote">
+            <h4>Excellent support for specialized applications.</h4>
+            <p>The durability and performance of Meera's fishnet processing equipment has significantly improved our
+              marine product quality. Excellent support for specialized applications.</p>
+            <div class="person">
+              <img src="images/profileLogo.svg" alt="Person">
+              <div>
+                <h5>Carlos Mendoza</h5>
+                <p>Operations Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="proven-results-card">
+            <img src="images/quoote.svg" alt="Quoote">
+            <h4>Excellent support for specialized applications.</h4>
+            <p>The durability and performance of Meera's fishnet processing equipment has significantly improved our
+              marine product quality. Excellent support for specialized applications.</p>
+            <div class="person">
+              <img src="images/profileLogo.svg" alt="Person">
+              <div>
+                <h5>Carlos Mendoza</h5>
+                <p>Operations Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="proven-results-card">
+            <img src="images/quoote.svg" alt="Quoote">
+            <h4>Excellent support for specialized applications.</h4>
+            <p>The durability and performance of Meera's fishnet processing equipment has significantly improved our
+              marine product quality. Excellent support for specialized applications.</p>
+            <div class="person">
+              <img src="images/profileLogo.svg" alt="Person">
+              <div>
+                <h5>Carlos Mendoza</h5>
+                <p>Operations Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="proven-results-card">
+            <img src="images/quoote.svg" alt="Quoote">
+            <h4>Excellent support for specialized applications.</h4>
+            <p>The durability and performance of Meera's fishnet processing equipment has significantly improved our
+              marine product quality. Excellent support for specialized applications.</p>
+            <div class="person">
+              <img src="images/profileLogo.svg" alt="Person">
+              <div>
+                <h5>Carlos Mendoza</h5>
+                <p>Operations Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="proven-results-card">
+            <img src="images/quoote.svg" alt="Quoote">
+            <h4>Excellent support for specialized applications.</h4>
+            <p>The durability and performance of Meera's fishnet processing equipment has significantly improved our
+              marine product quality. Excellent support for specialized applications.</p>
+            <div class="person">
+              <img src="images/profileLogo.svg" alt="Person">
+              <div>
+                <h5>Carlos Mendoza</h5>
+                <p>Operations Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Piping Solutions -->
+  <section class="piping-solutions">
+    <div class="piping-solutions-container">
+      <div class="piping-solutions-content">
+        <h2>Complete Piping Solutions Portfolio</h2>
+        <p>From innovative Two-For-One Twisters to specialized heat setting machines, we deliver complete solutions for
+          modern textile manufacturing.</p>
+        <div class="piping-solutions-cards">
+          <div class="piping-solutions-card">
+            <h4>HDPE Fittings & Accessories</h4>
+            <p>Complete range of electrofusion and butt fusion fittings, including elbows, tees, reducers, and couplers
+              for seamless pipe connections.</p>
+            <img src="images/smart-indian-engineer-man.jpg" alt="Piping Solution">
+            <div class="piping-solutions-card-actions">
+              <button class="secondary-btn">Learn More</button>
+            </div>
+          </div>
+          <div class="piping-solutions-card">
+            <h4>Professional Installation Services</h4>
+            <p>Expert installation and fusion welding services ensuring optimal system performance, compliance with
+              standards, and long-term reliability.</p>
+            <img src="images/men-safety-equipment-work.jpg" alt="Piping Solution">
+            <div class="piping-solutions-card-actions">
+              <button class="secondary-btn">Learn More</button>
+            </div>
+          </div>
+          <div class="piping-solutions-card">
+            <h4>PE-RT Heating Pipes</h4>
+            <p>Polyethylene of Raised Temperature resistance pipes ideal for underfloor heating, radiator connections,
+              and hot water applications.</p>
+            <img src="images/smart-indian-engineer-man.jpg" alt="Piping Solution">
+            <div class="piping-solutions-card-actions">
+              <button class="secondary-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="piping-solutions-footer">
+          <div class="piping-solutions-footer-content">
+            <h4>Didn't find what <span>you're looking for?</span></h4>
+            <p>Talk to our experts for custom solutions and tailored guidence.</p>
+          </div>
+          <div class="piping-solutions-footer-actions">
+            <button class="primary-btn"><img src="images/call.svg" alt="Call">Talk to an Expert</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Resources And Downloads -->
+  <section class="resources-and-downloads">
+    <div class="resources-and-downloads-container">
+      <div class="resources-and-downloads-content">
+        <h2>Resources & Downloads</h2>
+        <p>Get all the technical documentation and resources you need to make informed decisions about our HDPE piping
+          solutions.</p>
+        <div class="resources-and-downloads-card">
+          <p>HDPE Pipe Installation Manual (PDF) <a href="#">Download Pdf<img src="images/downloadBlue.svg"
+                alt="Download"></a>
+          </p>
+          <p>Maintenance & Inspection Handbook (PDF) <a href="#">Download Pdf<img src="images/downloadBlue.svg"
+                alt="Download"></a>
+          </p>
+          <p>Engineering Specifications Sheet (PDF) <a href="#">Download Pdf<img src="images/downloadBlue.svg"
+                alt="Download"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Contact Us Section -->
+  <section class="contact-us">
+    <div class="contact-us-container">
+      <div class="contact-us-content">
+        <h2>Ready to Transform Your Textile Manufacturing?</h2>
+        <p>Get a personalized consultation and quote for machinery solutions tailored to your specific production
+          requirements.</p>
+        <p>For immediate assistance, feel free to give us a direct call at <b>+91-XXX-XXX-XXXX</b>. You can also send
+          us a
+          quick email at <b><u>info@meeraind.com</u></b></p>
+      </div>
+      <div class="contact-us-form">
+        <h4>Contact Us Today</h4>
+        <form action="">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Full Name">
+          </div>
+          <div class="form-group">
+            <input type="text" id="company-name" name="company-name" placeholder="Company Name">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <div class="phone-input">
+              <div class="country-code">
+                <span>+91</span>
+                <span class="arrow">▾</span>
+              </div>
+
+              <input type="text" placeholder="7003026616" />
+            </div>
+          </div>
+          <button class="dark-primary-btn" type="submit">Request Custom Quote</button>
+        </form>
+      </div>
+    </div>
+  </section>
   <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="Logo">
+          <p>Premium <span>HDPE Pipes & Fittings Manufacturer</span> in South India</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>About Us</h4>
+            <a>About Us</a>
+          </div>
+          <div class="footer-links-column">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Packaging Industry Solutions</a></li>
+              <li><a href="#">Fishnet Manufacturing</a></li>
+              <li><a href="#">PPMF/Tapes and Twines</a></li>
+              <li><a href="#">FIBC and Woven Sack</a></li>
+              <li><a href="#">Carpet and Rugs Industry</a></li>
+              <li><a href="#">Technical Textiles</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#">Two For One Twister</a></li>
+              <li><a href="#">TPRS Twister Machine</a></li>
+              <li><a href="#">Ring Twisting Machines</a></li>
+              <li><a href="#">Covering Machines</a></li>
+              <li><a href="#">Heat Setting Equipment</a></li>
+              <li><a href="#">Servo Controlled Winders</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#"><img src="images/location.svg" alt="Location">Installation Manual</a></li>
+              <li><a href="#"><img src="images/phone.svg" alt="Phone">Maintenance & Inspection</a></li>
+              <li><a href="#"><img src="images/email.svg" alt="Email">Engineering Specifications</a></li>
+              <li><a href="#"><img src="images/support.svg" alt="Support">Contact Us</a></li>
+            </ul>
+            <div class="footer-social">
+              <a href="#"><img src="images/linkedIn.svg" alt="Linkedin"></a>
+              <a href="#"><img src="images/x.svg" alt="Twitter"></a>
+              <a href="#"><img src="images/insta.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>Copyright © 2025 Meera Industries Limited | All Rights Reserved</p>
+    <div>
+      <p>Privacy Policy</p>
+      <p>Terms of Service</p>
+      <p>Sitemap</p>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 
